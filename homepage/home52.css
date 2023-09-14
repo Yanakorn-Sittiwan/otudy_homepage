@@ -1,0 +1,975 @@
+/* Header */
+
+/* button */
+.start,
+.startbutton {
+  position: absolute;
+}
+.start {
+  text-decoration: none;
+  top: 26px;
+  left: 124px;
+  font-weight: 500;
+  font-size: var(--font-size-21xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+}
+.startbutton {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  border-radius: 25px;
+  border: 3px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 403px;
+  height: 103px;
+}
+
+.startbutton:hover {
+    background-color: #f09534;
+    color: #fefefe;
+
+}
+
+
+/* Intro text */
+
+.headcontentsubtxt {
+    margin: 0;
+  } 
+
+.headcontenttxt {
+    line-break: anywhere;
+    width: 100%;
+    margin: 0;
+}
+
+  
+.headcontent {
+    top: 150px;
+    left: 200px;
+    font-size: var(--font-size-31xl);
+    line-height: 56px;
+    font-weight: 600;
+    color: var(--color-steelblue);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 475px;
+    height: 176px;
+  }
+
+
+/* image */
+
+.leader-board-page-student-mob,
+.reward-2-2 {
+  position: absolute;
+  top: -229px;
+  left: 522px;
+  width: 624px;
+  height: 381px;
+  
+}
+.leader-board-page-student-mob {
+  top: -163px;
+  left: 989px;
+  border-radius: var(--br-mini);
+  width: 170px;
+  height: 333px;
+}
+
+
+.introduction-child {
+    position: absolute;
+    top: 99px;
+    left: 603px;
+    border-radius: 50%;
+    background-color: var(--color-darkorange-100);
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.25);
+    width: 600px;
+    height: 100px;
+  }
+
+.appimage{
+    position: relative;
+    top: -25%;
+    right: -20px;
+}
+
+.content {
+    position: absolute;
+    top: 270px;
+    left: 20%;
+    width: 1203px;
+    height: 199px;
+  }
+
+
+/* Mini conclude */
+
+/* engagement */
+
+.engagement1 {
+    position: absolute;
+    top: 50px;
+    left: 108px;
+    display: inline-block;
+    width: 240px;
+
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-steelblue);
+    font-family: var(--font-inter);
+  }
+
+.engagement1_txt {
+    position: absolute;
+    top: 126px;
+    left: 11px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    color: dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 346px;
+    height: 83px;
+  }
+  
+.engagement-item {
+    position: absolute;
+    top: -1.5px;
+    left: 397.5px;
+    border-right: 3px dashed var(--color-steelblue);
+    box-sizing: border-box;
+    width: 3px;
+    height: 248px;
+  }
+
+
+
+.engagement-child {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-darkorange-100);
+    width: 90px;
+    height: 90px;
+  }
+
+.fi-rr-gift-icon {
+    position: absolute;
+    top: 43px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+.engagement {
+    position: absolute;
+    top: 475px;
+    left: 103px;
+    width: 399px;
+    height: 245px;
+    
+  }
+/* gamification */
+
+.gamification-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-darkorange-100);
+    width: 90px;
+    height: 90px;
+  }
+
+.gamification1 {
+    position: absolute;
+    top: 29px;
+    left: 108px;
+    display: inline-block;
+    width: 240px;
+
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-steelblue);
+    font-family: var(--font-inter);
+  }
+
+.gamification1_txt {
+    position: absolute;
+    top: 90px;
+    left: 2px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    color: var(--color-dimgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 346px;
+    height: 83px;
+  }
+
+.gamification {
+    position: absolute;
+    top: 496px;
+    left: 539px;
+    width: 348px;
+    height: 173px;
+  }
+
+.fi-rr-gamepad-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+
+/* skill development */
+
+.skill-development-child {
+    position: absolute;
+    top: 23px;
+    left: 39px;
+    border-radius: 50%;
+    background-color: var(--color-darkorange-100);
+    width: 90px;
+    height: 90px;
+  }
+
+.skill-development1 {
+    position: absolute;
+    top: 54px;
+    left: 144px;
+    
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-steelblue);
+    font-family: var(--font-inter);
+  }
+
+
+.skill-development_txt {
+    position: absolute;
+    top: 113px;
+    left: 55px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    color: var(--color-dimgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 346px;
+    height: 83px;
+  }
+
+
+
+.skill-development-item {
+    position: absolute;
+    top: -1.5px;
+    left: -1.5px;
+    border-right: 3px dashed var(--color-steelblue);
+    box-sizing: border-box;
+    width: 3px;
+    height: 248px;
+  }
+
+.skill-development {
+    position: absolute;
+    top: 473px;
+    left: 936px;
+    width: 401px;
+    height: 245px;
+    font-size: var(--font-size-9xl);
+  }
+
+.fi-rr-user-add-icon {
+    position: absolute;
+    top: 43px;
+    left: 59px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+.miniconclude {
+    position: relative;
+    top: -190px;
+    left: -150px;
+  }
+
+
+
+/* ----------------Slogan-------------------*/
+
+.light-blue-bg,
+
+/* Background */
+
+.opacity-bg {
+  position: absolute;
+  top: 875px;
+  left: calc(50% - 720px);
+  background-color: whitesmoke;
+  width: 1440px;
+  height: 478px;
+}
+.light-blue-bg {
+  background-color: aliceblue;
+  width: 814px;
+}
+
+/* Slogan */
+
+.otudy {
+  color: var(--color-darkorange-100);
+  font-size: var(--font-size-21xl);
+}
+.school {
+  font-size: var(--font-size-21xl);
+  color: var(--color-steelblue);
+}
+
+.otudy-school,
+.p0 {
+
+  margin-block-start: 0;
+  margin-block-end: 20px;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--color-dimgray);
+}
+.p1 {
+  margin: 0;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--color-dimgray);
+  
+}
+
+/* button */
+
+
+.otudy-school-container {
+  position: absolute;
+  top: 950px;
+  left: 850px;
+  font-family: var(--font-inter);
+}
+
+
+.start2,
+.startbutton2 {
+  position: absolute;
+}
+.start2 {
+  text-decoration: none;
+  top: 15px;
+  left: 90px;
+  font-weight: 500;
+  font-size: var(--font-size-11xl);
+  color: dimgrey;
+  font-family: var(--font-inter);
+  align-items: center;
+  justify-content: center;
+}
+.startbutton2 {
+  position: absolute;
+  top: 1150px;
+  left: 850px;
+  border-radius: 25px;
+  border: 3px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 303px;
+  height: 73px;
+}
+
+
+.startbutton2:hover {
+    background-color: steelblue;
+    color: #fefefe;
+
+}
+
+
+/* image  */
+
+.class-student-teacher-1,
+.reward-page-student-mobile-1 {
+  position: absolute;
+  top: 900px;
+  left: 300px;
+  width: 208px;
+  height: 444.82px;
+  object-fit: cover;
+}
+.reward-page-student-mobile-1 {
+  left: 50px;
+}
+
+/* .another-slogan {
+  position: relative;
+  height: 4780px;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+} */
+
+
+/* ----------------Whats good-------------------*/
+
+
+/* Collect point */
+
+/* diamon pic */
+
+.diamond-student-mobile,
+.reward-2-icon {
+  position: absolute;
+  top: 1467px;
+  left: -40px;
+  width: 263.69px;
+  height: 247.01px;
+  object-fit: cover;
+}
+
+/* collect point text */
+
+.collet_point,
+.collect_point_box {
+  position: absolute;
+}
+
+.collet_point {
+  text-decoration: none;
+  /* top: 15px;
+  left: 90px; */
+  font-weight: 600;
+  font-family: var(--font-inter);
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+  padding: 30px;
+  width: 168px;
+  display: flex;
+
+
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-inter);
+}
+.collect_point_box {
+  position: absolute;
+  top: 1680px;
+  left: -40px;
+  border-radius: 10px;
+  border-bottom: 3px solid gainsboro;
+  box-sizing: border-box;
+  width: 190px;
+  height: 69px;
+  display: flex;
+}
+
+
+/* Redeem Reward */
+
+/* reward pic */
+
+.reward-2-icon {
+  left: 1020px;
+  width: 209px;
+  height: 214px;
+}
+
+/* collect point text */
+
+
+.redeem,
+.redeem_box {
+  position: absolute;
+}
+
+.redeem {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  text-align: center;
+  padding: 30px;
+  width: 168px;
+  display: flex;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-inter);
+}
+.redeem_box {
+  position: absolute;
+  top: 1680px;
+  left: 1020px;
+  border-radius: 10px;
+  border-bottom: 3px solid gainsboro;
+  box-sizing: border-box;
+  width: 190px;
+  height: 69px;
+  display: flex;
+}
+
+
+
+/* middle text */
+
+.funnier {
+  position: absolute;
+  top: 1460px;
+  left: 320px;
+  font-size: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 534px;
+  color: var(--color-darkorange-100);
+  font-family: var(--font-inter);
+}
+
+.funtxt {
+  margin: 0;
+}
+.txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.div_txt {
+  position: absolute;
+  top: 1595px;
+  left: 300px;
+  font-size: var(--font-size-21xl);
+  color: dimgrey;
+  display: flex;
+  align-items: center;
+  width: 621px;
+  
+}
+
+.line {
+  position: absolute;
+  top: 1750px;
+  left: 185px;
+  border-bottom: 3px solid gainsboro;
+  box-sizing: border-box;
+  width: 800px;
+  height: 69px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+
+/* ----------------Intro Feature 1-------------------*/
+
+
+/* feature pic */
+
+.my-class-1-page-student-mobil {
+  position: absolute;
+  top: 1951px;
+  left: 30px;
+  width: 209px;
+  height: 441.82px;
+  object-fit: cover;
+}
+
+.class-start-mission-page-stud {
+  position: absolute;
+  top: 2022px;
+  left: 280px;
+  border-radius: var(--br-3xs);
+  width: 218px;
+  height: 290px;
+  object-fit: cover;
+}
+
+
+
+/* text box */
+.white-opacity-bg ,
+.textinsidebox {position: absolute;
+}
+
+
+.white-opacity-bg {
+  position: absolute;
+  top: 2022px;
+  left: 550px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 619px;
+  height: 296px;
+}
+
+
+/* text inside the box */
+
+.boldtxt {
+  font-size: 32px;
+  font-family: var(--font-inter);
+  color: var(--color-steelblue);
+  width: 565px;
+}
+
+.alltxt {
+  line-break: anywhere;
+  width: 100%;
+}
+
+
+.headtxt_p0 , .headtxt_p1 , .headtxt_p2 {
+  color: dimgrey;
+  font-size: 26px;
+  font-family: var(--font-inter);
+}
+
+.textinsidebox {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 565px;
+  text-align: center;
+  padding: 30px;
+  top: 10px;
+}
+
+
+.introfeature_1 {
+  position: relative;
+  top: -300px;
+  left: -15px;
+}
+
+/* ----------------Intro Feature 2-------------------*/
+
+
+/* text box */
+
+.white-opacity-bg2 ,
+.textinsidebox2 {position: absolute;
+}
+
+
+.white-opacity-bg2 {
+  position: absolute;
+  top: 2500px;
+  left: 20px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 619px;
+  height: 280px;
+}
+
+
+/* text inside the box */
+
+.boldtxt2 {
+  font-size: 32px;
+  font-family: var(--font-inter);
+  color: var(--color-steelblue);
+  width: 565px;
+}
+
+.alltxt2 {
+  line-break: anywhere;
+  width: 100%;
+}
+
+
+.headtxt_p12 , .headtxt_p22 {
+  color: dimgrey;
+  font-size: 26px;
+  font-family: var(--font-inter);
+}
+
+.textinsidebox2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 565px;
+  text-align: center;
+  padding: 30px;
+  top: 10px;
+}
+
+/* introfeature2 Image */
+
+.Introfeature_2_img {
+  position: absolute;
+  top: 2400px;
+  left: 700px;
+}
+
+.profile {
+  position: relative;
+  left: 50px
+}
+
+.introfeature_2 {
+  position: relative;
+  top: -260px;
+  left: -15px;
+}
+
+
+/* ----------------Feature list-------------------*/
+
+/* blue background */
+
+.register-bg {
+  position: absolute;
+  top: 2900px;
+  left: calc(50% - 750px);
+  background-color: aliceblue;
+  width: 1440px;
+  height: 700px;
+}
+
+/* Header */
+
+.our-features1 {
+  padding-top: 60px;
+  position: absolute;
+  top: 2900px;
+  left: 400px;
+  font-weight: 800;
+  color: var(--color-darkorange-100);
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-inter);
+}
+
+/* feature list */
+
+.checklist,.gamepad,.diamondreward,.info,.fluidgroup {
+  display: flex; /* Display children in a row */
+  align-items: center; /* Vertically align items */
+  margin: -15px;
+}
+
+.checklist_txt {
+
+  margin-left: 30px;
+  text-align: center; 
+}
+
+.checklist_icon {
+  max-width: 100%; 
+  height: auto; 
+  margin-left: 10px;
+}
+
+
+.all_list {
+  position: absolute;
+  top: 3050px;
+  left: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: -100px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: dimgrey;
+  font-family: var(--font-inter);
+}
+
+
+/* start button3 */
+.start3,
+.startbutton3 {
+  position: absolute;
+}
+.start3 {
+  text-decoration: none;
+  top: 15px;
+  left: 90px;
+  font-weight: 500;
+  font-size: var(--font-size-11xl);
+  color: dimgrey;
+  font-family: var(--font-inter);
+  align-items: center;
+  justify-content: center;
+}
+.startbutton3 {
+  position: absolute;
+  background-color: white;
+  top: 3450px;
+  left: 460px;
+  border-radius: 15px;
+  border: 3px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 303px;
+  height: 73px;
+}
+
+
+.startbutton3:hover {
+    background-color: rgb(19, 246, 128);
+    color: blue;
+}
+
+
+.cursor-icon {
+  position: absolute;
+  top: 3510px;
+  left: 740px;
+  width: 30px;
+  height: 30px;
+  /* overflow: hidden; */
+  background-color: white;
+}
+
+
+/* ----------------Footer-------------------*/
+
+/* left side */
+
+.magiceraser-5660804-114316-4-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 245px;
+  height: 51px;
+  object-fit: cover;
+}
+
+/* socail */
+
+.social {
+  position: relative;
+  top: 87px;
+  left: 62px;
+  
+  display: flex; /* Display children in a row */
+  align-items: center; /* Vertically align items */
+  margin: -15px;
+}
+
+.social img{
+  margin-left: 20px;
+  text-align: center; 
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+/* Left text */
+
+/* .otudy-all-rights, */
+.otudyofficialgmailcom {
+  position: relative;
+  top: 127px;
+  left: 12px;
+}
+.otudyofficialgmailcom {
+  position: relative;
+  top: 127px;
+  font-weight: 500;
+}
+
+.leftfooter {
+  position: absolute;
+  top: 3670px;
+  left: 60px;
+
+  font-size: 20px;
+  font-family: var(--font-inter);
+
+}
+
+
+
+
+/* right side */
+
+.contact-us {
+  position: absolute;
+  top: 3670px;
+  left: 830px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 162px;
+  font-family: var(--font-inter);
+}
+
+
+.tel,.location,.email {
+  display: flex; /* Display children in a row */
+  align-items: center; /* Vertically align items */
+  margin: -15px;
+}
+
+.contact_name,.colon,.contact_detail {
+
+  margin-left: 30px;
+  text-align: center; 
+}
+
+.tel_icon,.location_icon,.email_icon {
+  max-width: 100%; 
+  height: auto; 
+  margin-left: 10px;
+}
+
+
+.all_contact {
+  position: absolute;
+  top: 3720px;
+  left: 830px;
+  display: flex;
+  flex-direction: column;
+  gap: -80px;
+  text-align: left;
+  font-size: 20px;
+  color: dimgrey;
+  font-family: var(--font-inter);
+}
+
+
+/* lowerfooter */
+
+.lowerbackground {
+  position: absolute;
+  top: 3900px;
+  left: calc(30% - 900px); 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(3, 36, 66);
+  width: 100%;
+
+  height: 80px;
+
+
+}
+
+.otudy-all-rights {
+  position: absolute;
+  top: 3920px;
+  left: 460px;
+
+  color: rgb(234, 15, 15);
+  font-size: 20px;
+  font-family: var(--font-inter);
+}
